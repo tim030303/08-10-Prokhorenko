@@ -1,0 +1,12 @@
+a=int(input())
+b=int(input())
+c=int(input())
+D=b**2-4*a*c
+if a==0:
+    print('a=0')
+elif D<0:
+    print('Корней нет')
+elif D==0:
+    print(-b/2/a)
+else:
+    print((-b-D**0.5)/2/a,'и',(-b+D**0.5)/2/a)

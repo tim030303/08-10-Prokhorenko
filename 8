@@ -1,0 +1,4 @@
+speed=int(input())
+time=int(input())
+length=speed*time
+print((length>=0)*length%109+(length<0)*(109-abs(length)%109))
